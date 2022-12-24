@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  height: 12vh;
+  background-color: #322f3e;
+  display: flex;
+}
+
+.logotipo{
+  width: 30%;
+  height: 12vh;
+  text-align: center;
+  color: white;
+  font-size: 18pt;
+  margin-top: 7px;
+}
+
+.logotipo h1{
+  margin-left: 20px;
+}
+
+.ancoragem{
+  width: 70%;
+  height: 12vh;
+  color: white;
+  font-size: 17pt;
+  margin-top: 25px;
+  margin-left: 550px;
+}
+
+.ancoragem a{
+  color: white;
+  padding: 20px;
+}

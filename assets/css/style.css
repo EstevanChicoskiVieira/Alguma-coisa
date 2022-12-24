@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Blaka&family=Chathura:wght@100&family=Cinzel:wght@600&family=Economica&family=Montserrat:wght@700&family=Mukta&family=Open+Sans&family=Paytone+One&family=Play:wght@400;700&family=Readex+Pro:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Blaka&family=Chathura:wght@100&family=Cinzel:wght@600&family=Economica&family=Kanit:wght@100&family=Montserrat:wght@700&family=Mukta&family=Open+Sans&family=Paytone+One&family=Play:wght@400;700&family=Rajdhani:wght@300&family=Readex+Pro:wght@300;700&family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Blaka&family=Chathura:wght@100&family=Cinzel:wght@600&family=Economica&family=Montserrat:wght@700&family=Mukta&family=Open+Sans&family=Paytone+One&family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+}
+
+.header a{
+    padding: 15px;
+    font-size: 18pt;
+    color: white;
+    transition: color .3s;
+}
+
+.header a:hover{
+    color: rgb(141, 107, 221);
+}
+
+#nameMenu{
+    margin-left: 45px;
+    transition: .7s;
+}
+
+#nameMenu:hover{
+    font-size: 25pt;
+}
+
+.container{
+    width: 100%;
+    height: 120vh;
+    padding-top: 40px;
+    background: url(../img/bg.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+}
+
+.login{
+    width: 50%;
+    height: 100%;
+}
+
+.place{
+    width: 50%;
+    height: 100%;
+}
+
+.lg{
+    width: 45%;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.555);
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 150px;
+    color: white;
+    padding: 40px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.lg h1{
+    font-size: 20pt;
+    color: rgba(255, 255, 255, 0.616);
+    transition: .6s;
+}
+
+.lg h1:hover{
+    font-size: 25pt;
+    color: white;
+}
+
+.nm{
+    margin-top: 35px;
+}
+
+.nm2, .nm3{
+    margin-top: 20px;
+}
+
+.nm input textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    }
+
+input{
+    height: 20px;
+    border: 0px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+    color: rgba(255, 255, 255, 0.568);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 10pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nm input{
+    width: 140px;
+}
+
+.nm2 input,.nm3 input{
+    width: 284px;
+}
+
+.button input{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15pt;
+    background-color: rgb(20, 21, 24);
+    color: white;
+    border: 0px;
+    transition: background .3s;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.button input:hover {
+    background-color: rgb(27, 28, 32);
+    border: 1px black solid;
+}
+
+.es{
+    margin-top: 20px;
+}
+
+.es a{
+    transition: color .3s;
+}
+
+.es a:hover{
+    color: rgb(79, 36, 87);
+}
+
+.card{
+    width: 300px;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.692);
+    margin-top: 125px;
+    margin-left: 170px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.banner{
+    width: 100%;
+    height: 15vh;
+    border: 0px;
+    border-radius: 5px;
+    background: url(../img/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    transition: .6s;
+}
+
+.banner:hover{
+    opacity: 0.8;
+}
+
+#nameUser{
+    color: white;
+    transition: font-size .7s;
+}
+
+#nameUser:hover{
+    font-size: 25pt;
+}
+
+.nameUser{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.texto{
+    padding: 20px;
+}
+
+#recado{
+    color: rgba(255, 255, 255, 0.527);
+    margin-top: 2px;
+    text-align: justify;
+    transition: color .3s;
+}
+
+#recado:hover{
+    color: white;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgb(30, 30, 41);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(141, 107, 221);
+    border: 0px;
+    border-radius: 10px;
+}
+
+.container-sla{
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+    background: url(../img/bg7.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.autoTxt{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+}
+
+@keyframes blink {
+    0%{opacity: 1;
+    }
+    100%{opacity: 0;
+    }
+}
+
+#autoTxt::after{
+    content: "|";
+    margin-left: 10px;
+    animation: blink 0.7s infinite;
+}
